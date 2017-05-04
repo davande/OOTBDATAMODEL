@@ -1,0 +1,53 @@
+// dot 2.36.0 on Mac OS X 10.11.6
+// SchemaSpy rev 590
+digraph "BusinessHours" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "BusinessHours" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">BusinessHours</TD></TR>
+      <TR><TD PORT="Id" COLSPAN="3" BGCOLOR="#bed1b8" ALIGN="LEFT">Id</TD></TR>
+      <TR><TD PORT="Name" COLSPAN="3" ALIGN="LEFT">Name</TD></TR>
+      <TR><TD PORT="IsActive" COLSPAN="3" ALIGN="LEFT">IsActive</TD></TR>
+      <TR><TD PORT="IsDefault" COLSPAN="3" ALIGN="LEFT">IsDefault</TD></TR>
+      <TR><TD PORT="SundayStartTime" COLSPAN="3" ALIGN="LEFT">SundayStartTime</TD></TR>
+      <TR><TD PORT="SundayEndTime" COLSPAN="3" ALIGN="LEFT">SundayEndTime</TD></TR>
+      <TR><TD PORT="MondayStartTime" COLSPAN="3" ALIGN="LEFT">MondayStartTime</TD></TR>
+      <TR><TD PORT="MondayEndTime" COLSPAN="3" ALIGN="LEFT">MondayEndTime</TD></TR>
+      <TR><TD PORT="TuesdayStartTime" COLSPAN="3" ALIGN="LEFT">TuesdayStartTime</TD></TR>
+      <TR><TD PORT="TuesdayEndTime" COLSPAN="3" ALIGN="LEFT">TuesdayEndTime</TD></TR>
+      <TR><TD PORT="WednesdayStartTime" COLSPAN="3" ALIGN="LEFT">WednesdayStartTime</TD></TR>
+      <TR><TD PORT="WednesdayEndTime" COLSPAN="3" ALIGN="LEFT">WednesdayEndTime</TD></TR>
+      <TR><TD PORT="ThursdayStartTime" COLSPAN="3" ALIGN="LEFT">ThursdayStartTime</TD></TR>
+      <TR><TD PORT="ThursdayEndTime" COLSPAN="3" ALIGN="LEFT">ThursdayEndTime</TD></TR>
+      <TR><TD PORT="FridayStartTime" COLSPAN="3" ALIGN="LEFT">FridayStartTime</TD></TR>
+      <TR><TD PORT="FridayEndTime" COLSPAN="3" ALIGN="LEFT">FridayEndTime</TD></TR>
+      <TR><TD PORT="SaturdayStartTime" COLSPAN="3" ALIGN="LEFT">SaturdayStartTime</TD></TR>
+      <TR><TD PORT="SaturdayEndTime" COLSPAN="3" ALIGN="LEFT">SaturdayEndTime</TD></TR>
+      <TR><TD PORT="TimeZoneSidKey" COLSPAN="3" ALIGN="LEFT">TimeZoneSidKey</TD></TR>
+      <TR><TD PORT="SystemModstamp" COLSPAN="3" ALIGN="LEFT">SystemModstamp</TD></TR>
+      <TR><TD PORT="CreatedDate" COLSPAN="3" ALIGN="LEFT">CreatedDate</TD></TR>
+      <TR><TD PORT="CreatedById" COLSPAN="3" ALIGN="LEFT">CreatedById</TD></TR>
+      <TR><TD PORT="LastModifiedDate" COLSPAN="3" ALIGN="LEFT">LastModifiedDate</TD></TR>
+      <TR><TD PORT="LastModifiedById" COLSPAN="3" ALIGN="LEFT">LastModifiedById</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/BusinessHours.html"
+    tooltip="BusinessHours"
+  ];
+}
